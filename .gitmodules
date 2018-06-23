@@ -1,0 +1,3 @@
+[submodule "packages/blog/themes/next"]
+	path = packages/blog/themes/next
+	url = git@github.com:JustinTWBlog/hexo-theme-next.git
