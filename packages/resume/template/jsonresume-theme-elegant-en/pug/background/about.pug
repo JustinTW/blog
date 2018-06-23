@@ -1,0 +1,15 @@
+style(type='text/css').
+  ul > li.mop-wrapper > h4 {
+      margin-left: -16px;
+  }
+
+unless _.isEmpty(resume.basics.summary)
+  .detail#about
+    .icon
+      i.fs-lg.icon-board
+      span.mobile-title About
+    .info
+      h4.title.text-uppercase About
+
+      .card.card-nested
+        .content.mop-wrapper(itemprop="description")!= resume.basics.summary

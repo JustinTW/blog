@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "fresh-theme-compact": "^0.1.0",
+    "jsonresume-theme-classy": "^1.0.9",
+    "jsonresume-theme-elegant": "^1.10.2",
+    "jsonresume-theme-elegant-zh-hant": "^1.0.2"
+  }
+}

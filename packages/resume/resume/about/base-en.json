@@ -1,0 +1,137 @@
+{
+  "name": "Justin Liu",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.4.0"
+  },
+  "contact": {
+    "website": "https://blog.justintw.com",
+    "phone": "+886-982-612-553",
+    "email": "justintwd@gmail.com",
+    "other": [
+      {
+        "label": "Mobile Phone",
+        "flavor": "phone",
+        "value": "+886-3-439-1607"
+      },
+      {
+        "label": "Email",
+        "flavor": "email",
+        "value": "justintwd@gmail.com"
+      }
+    ]
+  },
+  "location": {
+    "address": "",
+    "city": "Taoyuan City",
+    "region": "",
+    "code": "32458",
+    "country": "Taiwan"
+  },
+  "social": [
+
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "JustinTW",
+      "url": "https://github.com/JustinTW"
+    },
+
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "user": "JustinTW",
+      "url": "https://www.linkedin.com/in/justin-liu-tw/"
+    },
+
+    {
+      "label": "Facebook",
+      "network": "Facebook",
+      "user": "JustinTW",
+      "url": "https://www.facebook.com/justin.liu.tw"
+    }
+  ],
+
+  "education": {
+
+    "summary": "",
+
+    "level": "degree",
+
+    "degree": "Master",
+
+    "history": [
+
+      {
+        "institution": "National Taiwan University",
+        "title": "Graduate Institute of Electronics Engineering",
+        "area": "Graduate Institute of Electronics Engineering",
+        "studyType": "Master",
+        "url": "http://www.ntu.edu.tw/",
+        "start": "2010-09",
+        "end": "2012-06",
+        "summary": "",
+        "curriculum": []
+      },
+
+      {
+        "institution": "National Taiwan University of Science and Technology",
+        "title": "Department of EE",
+        "area": "Department of EE",
+        "studyType": "Bachelor",
+        "url": "http://www.ntust.edu.tw/",
+        "start": "2006-09",
+        "end": "2010-06",
+        "summary": "",
+        "curriculum": []
+      }
+    ]
+
+  },
+
+  "writing": [
+    {
+      "title": "Justin Tech Share Blog",
+      "flavor": "blog",
+      "date": "2017-06-13",
+      "publisher": {
+        "name": "Justin Liu",
+        "url": "https://blog.justintw.com/"
+      },
+      "url": "https://blog.justintw.com/"
+    },
+    {
+      "title": "An OAuth-based Single Sign-On System for Mobile Applications",
+      "flavor": "Master Thesis",
+      "date": "2012-07-01",
+      "publisher": {
+        "name": "Justin Liu",
+        "url": "https://blog.justintw.com/s-oauth.pdf"
+      },
+      "url": "https://blog.justintw.com/s-oauth.pdf"
+    }
+  ],
+
+  "recognition": [
+    {
+      "flavor": "honor",
+      "from": "Mobile Hero",
+      "title": "Mobile Application Excellent work",
+      "event": "Mobile Hero",
+      "date": "2009",
+      "url": "https://www.mobilehero.com/"
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "English",
+      "level": "Moderate",
+      "years": 3
+    },
+    {
+      "language": "中文",
+      "level": "Native"
+    }
+  ]
+}

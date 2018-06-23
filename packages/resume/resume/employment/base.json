@@ -1,0 +1,85 @@
+{
+  "employment": {
+
+    "summary": "5 年全職網站全端開發、機房建置維護與網路建置維護經驗。",
+
+    "history": [
+      {
+        "employer": "MOXA 四零四科技",
+        "url": "http://www.moxa.com.tw/",
+        "position": "工業物聯網研發處 - 資深工程師",
+        "summary": "產品自動化(CI/CD)設計與開發，IIoT 網站後端程式開發與維護。",
+        "start": "2018-02",
+        "end": "2018-06",
+        "keywords": [],
+        "highlights": [
+          "**IIoT 產品 CI/CD 設計與開發** - 工具經驗: `Drone`, `Docker`, `GNU Make`",
+          "**IIoT 產品網站後端程式開發與維護** - 工具經驗: `Flask`, `Nginx`, `gunicorn`"
+        ]
+      },
+      {
+        "employer": "網擎資訊",
+        "url": "http://www.openfind.com.tw/",
+        "position": "產品研發部 - 主任工程師",
+        "summary": "",
+        "start": "2017-09",
+        "end": "2018-01",
+        "keywords": [],
+        "highlights": [
+          "**商用私有雲端硬碟 Web 程式開發** - [ArkEase Pro](http://www.openfind.com/taiwan/secushare.html) - 工具經驗: `MariaDB`, `PHP`, `Django`, `AngularJS`",
+          "**網站貼圖系統** - [Sticker](https://chrome.google.com/webstore/detail/mm-sticker-extension/imnhlmflcohjmcpeanadgmkmhhgakgpj) - 工具經驗: `Chrome Extension`, `AngularJS`"
+        ]
+      },
+      {
+        "employer": "和沛科技股份有限公司",
+        "url": "https://www.hopebaytech.com/",
+        "position": "產品研發部 - 資深軟體工程師",
+        "summary": "和沛科技是由前 Google 平台架構師 [Ben Jai](https://www.facebook.com/ben.jai) 帶領台達電子雲端團隊成立的軟體研發公司，創業初期我負責公司**網路**與**資訊系統**服務建置，並長期參與多項商用產品功能**設計**與**實做**。",
+        "start": "2013-06",
+        "end": "2017-09",
+        "keywords": [],
+        "highlights": [
+          "#### 網路建置與維護",
+          "**網路建置與維護** - 100+ 活躍使用者 - 工具經驗: `Linux`, `iptables`, `VLAN`, `VPN`, `netdata`, `ELK Stack`",
+          "**網路加速服務建置與維護** - Transparent Proxy 與**多種** 快取伺服器: `apt`, `pip`, `npm`, `docker`",
+          "**資訊服務建置與維護** - 相關服務: `DNS`, `LDAP`, `GitLab`, `DB Cluster`, `FreeRadius`",
+          "#### 網站軟體開發",
+          "**蒐證雲產品開發** - 900+ 使用者 - [EVI.TW](https://evi.tw/) - 工具經驗: `AWS`, `MongoDB`, `web.py`, `Knockout.js`, `RabbitMQ`",
+          "**企業電話錄音系統開發** - [ArkVoice](http://www.vlab.com.tw/index.php/forum/collaboration-applications/15422-arkvoice) - 工具經驗: `MongoDB Cluster`, `web.py`, `Knockout.js`, `RabbitMQ`",
+          "**Tera 手機檔案管理 Web 程式開發** - [Tera.Mobi](https://my.tera.mobi/) - 工具經驗: `MongoDB`, `Tornado`, `React`, `RabbitMQ`",
+          "**商用私有雲端硬碟 Web 程式開發** - [ArkEase Pro](https://www.hopebaytech.com/products/arkease_pro) - 工具經驗: `MariaDB`, `PHP`, `Django`, `AngularJS`"
+        ]
+      },
+
+      {
+        "employer": "台達電子股份有限公司",
+        "url": "http://www.deltaww.com/",
+        "position": "雲端事業處 - 資深工程師",
+        "summary": "參與開發雲端系統 Dashboard 界面與雲端儲存產品開發。",
+        "start": "2012-06",
+        "end": "2013-06",
+        "keywords": [],
+        "highlights": [
+          "**資料中心伺服器管理 Web 程式開發** - 使用 Bootstrap 與 jQuery 開發伺服器管理系統頁面",
+          "**大型檔案儲存管理系統開發** - 使用 Ext.js 與 PHP 開發儲存系統管理界面"
+        ]
+      },
+
+      {
+        "employer": "國立臺灣大學、國立臺灣科技大學",
+        "url": "http://www.ntu.com/",
+        "position": "電子工程學研究所辦公室 - 約聘軟體研發工程師",
+        "summary": "維護系所網站，開發多種系所辦公室網站功能。",
+        "start": "2008-09",
+        "end": "2012-06",
+        "keywords": [],
+        "highlights": [
+          "開發面試投影片上傳系統 - 2008 - [連結](http://interview.et.ntust.edu.tw/Interview/login.htm)",
+          "開發新版系所網站 - 2010",
+          "開發指導教授媒合系統 - 2011",
+          "虛擬化遷移與備份機制設計 - 2011"
+        ]
+      }
+    ]
+  }
+}

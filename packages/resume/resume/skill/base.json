@@ -1,0 +1,94 @@
+{
+  "skills": {
+
+    "sets": [
+      {
+        "name": "網路服務 (熟悉)",
+        "level": "advanced",
+        "skills": [
+          "Bind 9", "Squid 3", "Samba", "Nginx", "OpenLDAP", "FreeRadius", "Docker", "VPN"
+        ]
+      },
+      {
+        "name": "高可用與負載平衡",
+        "level": "intermediate",
+        "skills": [
+          "DRDB", "Percona DB Cluster", "MongoDB Cluster", "Virtual IP", "Nginx Reverse Proxy"
+        ]
+      },
+      {
+        "name": "網路維護 (熟悉)",
+        "level": "advanced",
+        "skills": [
+          "Nmap", "Shorewall", "tshark", "iptables", "mtr", "dig"
+        ]
+      },
+      {
+        "name": "網站開發 (後端) (精通)",
+        "level": "master",
+        "skills": [
+          "Django", "Tornado", "RabbitMQ", "Node.js", "PHP", "RESTful", "HTTP Protocol"
+        ]
+      },
+      {
+        "name": "網站開發 (前端)",
+        "level": "intermediate",
+        "skills": [
+          "AngularJS", "Angular", "React.js", "jQuery", "Bootstrap"
+        ]
+      },
+      {
+        "name": "資料庫",
+        "level": "intermediate",
+        "skills": [
+          "MySQL", "MongoDB", "Redis"
+        ]
+      },
+      {
+        "name": "設定自動化工具",
+        "level": "intermediate",
+        "skills": [
+          "Puppet"
+        ]
+      },
+      {
+        "name": "CI / CD",
+        "level": "intermediate",
+        "skills": [
+          "Jenkins", "Drone"
+        ]
+      }
+    ],
+
+    "list": [
+      {
+        "name": "Linux",
+        "id": "1",
+        "summary": "Optional summary of your experience with the skill.",
+        "level": "9",
+        "years": "4+",
+        "proof": "http://myblog.com/interesting-cplusplus-post"
+      },
+      {
+        "name": "Angular JS",
+        "id": "2",
+        "summary": "Optional summary of your experience with the skill.",
+        "level": "9",
+        "years": 7,
+        "proof": "http://myblog.com/interesting-cplusplus-post"
+      },
+      {
+        "name": "Python",
+        "summary": "Xcode 6 development.",
+        "level": "5",
+        "years": "3"
+      },
+      {
+        "name": "Node.js",
+        "summary": "Optional summary of your experience with the skill.",
+        "level": "advanced",
+        "years": "4+"
+      }
+    ]
+  }
+}

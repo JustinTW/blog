@@ -1,0 +1,137 @@
+{
+  "name": "劉晉廷 (Justin Liu)",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.4.0"
+  },
+  "contact": {
+    "website": "https://blog.justintw.com",
+    "phone": "+886-982-612-553",
+    "email": "justintwd@gmail.com",
+    "other": [
+      {
+        "label": "住家電話",
+        "flavor": "phone",
+        "value": "+886-3-439-1607"
+      },
+      {
+        "label": "個人信箱",
+        "flavor": "email",
+        "value": "justintwd@gmail.com"
+      }
+    ]
+  },
+  "location": {
+    "address": "",
+    "city": "桃園市",
+    "region": "",
+    "code": "32458",
+    "country": "臺灣"
+  },
+  "social": [
+
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "JustinTW",
+      "url": "https://github.com/JustinTW"
+    },
+
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "user": "JustinTW",
+      "url": "https://www.linkedin.com/in/justin-liu-tw/"
+    },
+
+    {
+      "label": "Facebook",
+      "network": "Facebook",
+      "user": "JustinTW",
+      "url": "https://www.facebook.com/justin.liu.tw"
+    }
+  ],
+
+  "education": {
+
+    "summary": "",
+
+    "level": "degree",
+
+    "degree": "Master",
+
+    "history": [
+
+      {
+        "institution": "國立臺灣大學",
+        "title": "電子工程學研究所",
+        "area": "電子工程學研究所",
+        "studyType": "碩士",
+        "url": "http://www.ntu.edu.tw/",
+        "start": "2010-09",
+        "end": "2012-06",
+        "summary": "",
+        "curriculum": []
+      },
+
+      {
+        "institution": "國立臺灣科技大學",
+        "title": "電子工程學系",
+        "area": "電子工程學系",
+        "studyType": "學士",
+        "url": "http://www.ntust.edu.tw/",
+        "start": "2006-09",
+        "end": "2010-06",
+        "summary": "",
+        "curriculum": []
+      }
+    ]
+
+  },
+
+  "writing": [
+    {
+      "title": "Justin 技術筆記分享部落格",
+      "flavor": "blog",
+      "date": "2017-06-13",
+      "publisher": {
+        "name": "Justin Liu",
+        "url": "https://blog.justintw.com/"
+      },
+      "url": "https://blog.justintw.com/"
+    },
+    {
+      "title": "An OAuth-based Single Sign-On System for Mobile Applications",
+      "flavor": "Master Thesis",
+      "date": "2012-07-01",
+      "publisher": {
+        "name": "Justin Liu",
+        "url": "https://blog.justintw.com/s-oauth.pdf"
+      },
+      "url": "https://blog.justintw.com/s-oauth.pdf"
+    }
+  ],
+
+  "recognition": [
+    {
+      "flavor": "honor",
+      "from": "Mobile Hero",
+      "title": "通訊應用軟體佳作",
+      "event": "通訊大賽",
+      "date": "2009",
+      "url": "https://www.mobilehero.com/"
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "中文",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Moderate",
+      "years": 3
+    }
+  ]
+}

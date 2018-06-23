@@ -1,0 +1,59 @@
+{
+  "employment": {
+
+    "summary": "5 年全職網站軟體開發、機房建置維護與網路建置維護經驗。3 年工讀生網路建置管理經驗。",
+
+    "history": [
+
+      {
+        "employer": "Hope Bay Technologies, Inc.",
+        "url": "https://www.hopebaytech.com/",
+        "position": "Software Engineer, Dept. of RD",
+        "summary": "My work focuses on web engineering, mostly building SPA with front-end framework like AngularJS, and RESTful api with back-end framework such as Django or Tornado. In my partime IT task, I involve with building, maintaining network and building various IT service for company.",
+        "start": "2013-06",
+        "keywords": [],
+        "highlights": [
+          "#### Information Systems and Technology",
+          "**Built and Maintenance of Network** - 100+ users - Tools: `Linux`, `iptables`, `VLAN`, `VPN`, `netdata`, `ELK Stack`",
+          "**Built and Maintenance of Cache Service** - Transparent proxy and **various** mirror site: `apt`, `pypi`, `npm`, `docker hub`",
+          "**Built and Maintenance of IT Service** - Service: `DNS`, `LDAP`, `GitLab`, `DB Cluster`, `FreeRadius`",
+          "#### Web developer",
+          "**Phone Recording System** - with 6 team members - 1200+ users - [EVI.TW](https://evi.tw/) - Tools: `AWS`, `MongoDB`, `web.py`, `Knockout.js`",
+          "**IP-PBX Recording System** - with 6 team members - [ArkVoice](http://www.vlab.com.tw/index.php/forum/collaboration-applications/15422-arkvoice) - Tools: `MongoDB`, `web.py`, `Knockout.js`, `RabbitMQ`",
+          "**Tera Phone File Manager** - with 4 team members - [Tera.Mobi](https://my.tera.mobi/) - Tools: `MongoDB`, `Tornado`, `React.js`, `RabbitMQ`",
+          "**EFSS Product Web Development** - with 12 team members - [ArkEase Pro](https://www.hopebaytech.com/products/arkease_pro) - Tools: `MariaDB`, `PHP`, `Django`, `AngularJS`"
+        ]
+      },
+
+      {
+        "employer": "Delta Electronics",
+        "url": "http://www.deltaww.com/",
+        "position": "Seinor Engineer, CTBU",
+        "summary": "Web application developer for data center physical machine management product.",
+        "start": "2012-06",
+        "end": "2013-06",
+        "keywords": [],
+        "highlights": [
+          "**Data Center Machine Manager Development** - with 12 team members - Tools: `Django`, `Twitter Bootstrap`, `jQuery`",
+          "**File Storage Product Development** - with 5 team members - Tools: `PHP`, `Ext.js`"
+        ]
+      },
+
+      {
+        "employer": "NTU and NTUST",
+        "url": "http://www.ntu.com/",
+        "position": "Contracted Software Engineer, Office of Dept. of EE",
+        "summary": "Website maintenance and various feature development.",
+        "start": "2008-09",
+        "end": "2012-06",
+        "keywords": [],
+        "highlights": [
+          "Slide Upload System for Graduate Admission Interview - 2008 - [Link](http://interview.et.ntust.edu.tw/Interview/login.htm)",
+          "New Official Website for Dept. of EE - 2010",
+          "Advisor Match Website for Graduate Student - 2011",
+          "Legacy System Virtualization - 2011"
+        ]
+      }
+    ]
+  }
+}
