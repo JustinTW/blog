@@ -16,6 +16,7 @@ unless _.isEmpty(resume.work)
                   a(href=experience.website, target="_blank")= experience.company
                 else
                   |#{experience.company}
+                |,&nbsp;
                 if !experience.endDate
                   i.icon-circle.current-event(
                     rel="tooltip",
@@ -23,7 +24,6 @@ unless _.isEmpty(resume.work)
                     data-placement="left"
                   )
                 strong= experience.position
-                |,&nbsp;
 
               p.text-muted
                 small
