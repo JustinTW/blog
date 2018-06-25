@@ -21,7 +21,9 @@ categories: 技術分享
 
 [GitHub Pages](https://pages.github.com/) 提供靜態網頁服務，設定好之後可以透過 `https://自訂名稱.github.io/` 存取靜態網頁內容，很適合 Hexo 或 Jekyll 靜態網誌當作免費網頁託管的平台。
 
-不過要注意的是 GitHub Pages 自訂網域，無支援 HTTPS 功能，可透過搭配 CloudFlare 來達成 [參考資料](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/)。
+~~不過要注意的是 GitHub Pages 自訂網域，無支援 HTTPS 功能，可透過搭配 CloudFlare 來達成 [參考資料](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/)。~~
+
+更新： 2018/05 Github Pages 推出[自訂網域支援 HTTPS 功能](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)
 
 ### 付費網頁託管的選擇
 
@@ -38,6 +40,8 @@ categories: 技術分享
 
 目前單網域最便宜的購買方法，是上 [SSLs.com](https://www.ssls.com/) 購買 PositiveSSL ，一年約 150 台幣。
 
+更新：免費 SSL 可參考 [Let's Encrypt](https://letsencrypt.org/)
+
 {% asset_img 20170613-positive-ssl.png ssls.com 較便宜的 Positive SSL %}
 
 ## 靜態網誌系統
@@ -49,7 +53,7 @@ categories: 技術分享
 #### 安裝 npm 相關模組
 
 ```bash
-npm install
+yarn global add hexo-cli@1.1.0
 ```
 
 #### 新增文章

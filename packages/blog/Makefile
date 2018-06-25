@@ -9,8 +9,9 @@ help: ## This help.
 
 build: install-deps ## Build Project
 	hexo g
+	hexo d
 
-publish: build ## Publish blog
+publish: ## Publish blog
 	hexo d
 
 clean: ## Clean the generated/compiles files

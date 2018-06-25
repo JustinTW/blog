@@ -14,7 +14,7 @@ tags:
 編輯 `/etc/ssh/sshd_config` 設定檔:
 
 ```
-# 確保 Protocol 只支援第二版，(避免使用有漏洞的 ssh v1)
+# 確保 Protocol 只支援第二版，(避免使用舊版的通訊協定)
 Protocol 2
 
 # 變更 SSH Server Port, (客戶端連線時指定 Port: ssh -p 2222 my.host.com)

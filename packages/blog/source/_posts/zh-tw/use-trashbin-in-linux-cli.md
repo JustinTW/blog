@@ -88,7 +88,7 @@ trash-empty 30
 
 ```bash
 sudo /bin/su -c "echo \"#\!/bin/bash\" > /etc/cron.daily/trash-cli-rotate"
-sudo /bin/su -c "echo \"find $HOME/.local/share/Trash/ -mtime +29 --delete\\n\" >> /etc/cron.daily/trash-cli-rotate"
+sudo /bin/su -c "echo \"find $HOME/.local/share/Trash/ -mtime +29 -exec \\rm -rf {} \\;\n\" >> /etc/cron.daily/trash-cli-rotate"
 sudo /bin/su -c "chmod +x /etc/cron.daily/trash-cli-rotate"
 ```
 
