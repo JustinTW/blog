@@ -88,7 +88,9 @@ deploy:
   host: "FTP_HOST"
   user: "FTP_USER"
   pass: "FTP_PASS"
-  verbose: false
+  verbose: true
+  connections: 5
+  remote: "/staging"
 
 html_minifier:
   enable: true

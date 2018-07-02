@@ -1,9 +1,3 @@
-env:
-  global:
-  - 'FTP_HOST=[FTP_HOST]'
-  - 'FTP_USER=[FTP_USER]'
-  - 'FTP_PASS=[FTP_PASS]'
-
 language: node_js
 node_js:
   - "8"
@@ -13,13 +7,19 @@ cache:
     - node_modules
 before_install:
   - sudo apt-get install -y jq nasm
+  - yarn global add $(grep -vE "^\s*#" requirements/yarn  | tr "\\n" " ")
+
 addons:
   apt:
     update: true
 
-after_success:
-  - cp packages/blog/_config.sample.yml packages/blog/_config.yml
-  - sed -i "s/FTP_HOST/${FTP_HOST}/" packages/blog/_config.yml
-  - sed -i "s/FTP_USER/${FTP_USER}/" packages/blog/_config.yml
-  - sed -i "s/FTP_PASS/${FTP_PASS}/" packages/blog/_config.yml
-  - sudo -s 'if [ "$TRAVIS_BRANCH" == "release" ]; then; make publish -C packages/blog ; fi'
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh staging
+  on:
+    branch: develop
+
+provider: script
+  script: bash scripts/deploy.sh production
+  on:
+    branch: master
