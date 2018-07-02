@@ -1,7 +1,7 @@
 {
   "employment": {
 
-    "summary": "5 年全職網站全端開發、機房建置維護與網路建置維護經驗。",
+    "summary": "6 年全職網站全端開發、機房建置維護與網路建置維護經驗。",
 
     "history": [
       {
@@ -13,7 +13,7 @@
         "end": "2018-06",
         "keywords": [],
         "highlights": [
-          "**IIoT 產品 CI/CD 設計與開發** - 工具經驗: `Drone`, `Docker`, `GNU Make`",
+          "**IIoT 產品 CI/CD 設計與開發** - 工具經驗: `Drone`, `Docker`, `GNU Make`, `CloudFormation`",
           "**IIoT 產品網站後端程式開發與維護** - 工具經驗: `Flask`, `Nginx`, `gunicorn`"
         ]
       },
@@ -26,13 +26,13 @@
         "end": "2018-01",
         "keywords": [],
         "highlights": [
-          "**商用私有雲端硬碟 Web 程式開發** - [ArkEase Pro](http://www.openfind.com/taiwan/secushare.html) - 工具經驗: `MariaDB`, `PHP`, `Django`, `AngularJS`",
+          "**商用私有雲端硬碟 Web 程式開發** - [ArkEase Pro](http://www.openfind.com/taiwan/arkeasepro.html) - 工具經驗: `MariaDB`, `PHP`, `Django`, `AngularJS`",
           "**網站貼圖系統** - [Sticker](https://chrome.google.com/webstore/detail/mm-sticker-extension/imnhlmflcohjmcpeanadgmkmhhgakgpj) - 工具經驗: `Chrome Extension`, `AngularJS`"
         ]
       },
       {
         "employer": "和沛科技股份有限公司",
-        "url": "https://www.hopebaytech.com/",
+        "url": "http://www.hopebaytech.com/",
         "position": "產品研發部 - 資深軟體工程師",
         "summary": "和沛科技是由前 Google 平台架構師 [Ben Jai](https://www.facebook.com/ben.jai) 帶領台達電子雲端團隊成立的軟體研發公司，創業初期我負責公司**網路**與**資訊系統**服務建置，並長期參與多項商用產品功能**設計**與**實做**。",
         "start": "2013-06",
@@ -46,8 +46,8 @@
           "#### 網站軟體開發",
           "**蒐證雲產品開發** - 900+ 使用者 - [EVI.TW](https://evi.tw/) - 工具經驗: `AWS`, `MongoDB`, `web.py`, `Knockout.js`, `RabbitMQ`",
           "**企業電話錄音系統開發** - [ArkVoice](http://www.vlab.com.tw/index.php/forum/collaboration-applications/15422-arkvoice) - 工具經驗: `MongoDB Cluster`, `web.py`, `Knockout.js`, `RabbitMQ`",
-          "**Tera 手機檔案管理 Web 程式開發** - [Tera.Mobi](https://my.tera.mobi/) - 工具經驗: `MongoDB`, `Tornado`, `React`, `RabbitMQ`",
-          "**商用私有雲端硬碟 Web 程式開發** - [ArkEase Pro](https://www.hopebaytech.com/products/arkease_pro) - 工具經驗: `MariaDB`, `PHP`, `Django`, `AngularJS`"
+          "**Tera 手機檔案管理 Web 程式開發** - [Tera.Mobi](https://forum.xda-developers.com/android/apps-games/app-tera-cloud-file-unlimited-storage-t3680070) - 工具經驗: `MongoDB`, `Tornado`, `React`, `RabbitMQ`",
+          "**商用私有雲端硬碟 Web 程式開發** - [ArkEase Pro](http://www.hopebaytech.com/products/arkease_pro) - 工具經驗: `MariaDB`, `PHP`, `Django`, `AngularJS`"
         ]
       },
 

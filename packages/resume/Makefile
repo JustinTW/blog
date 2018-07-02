@@ -7,6 +7,14 @@ help: ## This help.
 
 .DEFAULT_GOAL := help
 
+test: merge-resume ## Run test
+	hackmyresume validate \
+	dist/src/fresh/base.json
+
+	hackmyresume validate \
+	dist/src/fresh/base-en.json
+
+
 build: install-deps merge-resume build-web-resume build-pdf-resume publish-resume ## Build Project
 
 clean: ## Clean the generated/compiles files

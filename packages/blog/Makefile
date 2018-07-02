@@ -9,7 +9,6 @@ help: ## This help.
 
 build: install-deps ## Build Project
 	hexo g
-	hexo d
 
 publish: ## Publish blog
 	hexo d
