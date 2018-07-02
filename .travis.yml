@@ -1,3 +1,9 @@
+env:
+  global:
+  - 'FTP_HOST=[FTP_HOST]'
+  - 'FTP_USER=[FTP_USER]'
+  - 'FTP_PASS=[FTP_PASS]'
+
 language: node_js
 node_js:
   - "8"
@@ -10,3 +16,15 @@ before_install:
 addons:
   apt:
     update: true
+
+before_deploy:
+  - cp packages/blog/_config.sample.yml packages/blog/_config.yml
+  - sed -i "s/FTP_HOST/${FTP_HOST}/" packages/blog/_config.yml
+  - sed -i "s/FTP_USER/${FTP_USER}/" packages/blog/_config.yml
+  - sed -i "s/FTP_PASS/${FTP_PASS}/" packages/blog/_config.yml
+
+deploy:
+  provider: script
+  script: make publish -C packages/blog
+  on:
+    branch: release
