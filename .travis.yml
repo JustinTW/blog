@@ -17,14 +17,11 @@ addons:
   apt:
     update: true
 
-before_deploy:
+after_success:
   - cp packages/blog/_config.sample.yml packages/blog/_config.yml
   - sed -i "s/FTP_HOST/${FTP_HOST}/" packages/blog/_config.yml
   - sed -i "s/FTP_USER/${FTP_USER}/" packages/blog/_config.yml
   - sed -i "s/FTP_PASS/${FTP_PASS}/" packages/blog/_config.yml
-
-deploy:
-  provider: script
-  script: make publish -C packages/blog
+  - make publish -C packages/blog
   on:
     branch: release
