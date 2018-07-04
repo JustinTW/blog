@@ -3,6 +3,7 @@ title: 保護 SSH Server 的一些方法
 date: 2017-06-23 02:43:26
 tags:
 - security
+categories: 技術分享
 ---
 
 目前大部分的 Linux Server 都會開啟 SSH 服務，預設的情況下，有被暴力破解密碼的風險，所以裝好 SSH Server 後，會建議立刻設定一些安全措施，本篇蒐集各種加強 SSH Server 安全性的方法，可以依據使用情況選擇較適合的措施。
