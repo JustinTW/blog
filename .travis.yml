@@ -14,12 +14,12 @@ addons:
     update: true
 
 deploy:
-  provider: script
-  script: bash scripts/deploy.sh staging
-  on:
-    branch: develop
+  - provider: script
+    script: bash scripts/deploy.sh staging
+    on:
+      branch: develop
 
-provider: script
-  script: bash scripts/deploy.sh production
-  on:
-    branch: master
+  - provider: script
+    script: bash scripts/deploy.sh production
+    on:
+      branch: master
