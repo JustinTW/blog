@@ -13,7 +13,7 @@
         "end": "2018-06",
         "keywords": [],
         "highlights": [
-          "**IIoT 產品 CI/CD 設計與開發** - 工具經驗: `Drone`, `Docker`, `GNU Make`, `CloudFormation`",
+          "**IIoT 產品 CI/CD 設計與開發** - 工具經驗: `Drone`, `Docker`, `CloudFormation`, `Terraform`",
           "**IIoT 產品網站後端程式開發與維護** - 工具經驗: `Flask`, `Nginx`, `gunicorn`"
         ]
       },

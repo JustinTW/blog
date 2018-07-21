@@ -48,7 +48,7 @@
         "name": "設定自動化工具",
         "level": "intermediate",
         "skills": [
-          "Puppet", "CloudFormation"
+          "Puppet", "CloudFormation", "Terraform"
         ]
       },
       {

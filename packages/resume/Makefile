@@ -47,6 +47,24 @@ merge-resume:
 	hackmyresume convert dist/src/fresh/base.json dist/src/jrs/base.json
 	hackmyresume convert dist/src/fresh/base-en.json dist/src/jrs/base-en.json
 
+	# devops
+	jq -s add \
+	resume/about/base.json \
+	resume/brief/customize/devops.json \
+	resume/employment/base.json \
+	resume/skill/base.json \
+	> dist/src/fresh/devops.json
+
+	jq -s add \
+	resume/about/base-en.json \
+	resume/brief/customize/devops-en.json \
+	resume/employment/base-en.json \
+	resume/skill/base-en.json \
+	> dist/src/fresh/devops-en.json
+
+	hackmyresume convert dist/src/fresh/devops.json dist/src/jrs/devops.json
+	hackmyresume convert dist/src/fresh/devops-en.json dist/src/jrs/devops-en.json
+
 build-web-resume:
 	mkdir -p dist/web
 
@@ -78,6 +96,15 @@ build-pdf-resume:
 	cp -rf template/fresh-theme-compact-en node_modules
 	hackmyresume build dist/src/jrs/base-en.json \
 		TO dist/pdf/resume-en.html \
+		-t node_modules/fresh-theme-compact-en
+
+	# devops
+	hackmyresume build dist/src/jrs/devops.json \
+		TO dist/pdf/devops.html \
+		-t node_modules/fresh-theme-compact-cht
+
+	hackmyresume build dist/src/jrs/devops-en.json \
+		TO dist/pdf/devops-en.html \
 		-t node_modules/fresh-theme-compact-en
 
 	rm dist/pdf/*.css

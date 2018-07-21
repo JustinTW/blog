@@ -48,7 +48,7 @@
         "name": "Configuration and IaaC (Basic)",
         "level": "intermediate",
         "skills": [
-          "Puppet", "CloudFormation"
+          "Puppet", "CloudFormation", "Terraform"
         ]
       },
       {
