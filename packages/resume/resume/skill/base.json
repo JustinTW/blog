@@ -1,62 +1,57 @@
 {
   "skills": {
-
     "sets": [
       {
         "name": "網路服務 (熟悉)",
         "level": "advanced",
         "skills": [
-          "Bind 9", "Squid 3", "Samba", "Nginx", "OpenLDAP", "FreeRadius", "Docker", "VPN"
-        ]
-      },
-      {
-        "name": "高可用與負載平衡",
-        "level": "intermediate",
-        "skills": [
-          "DRDB", "Percona DB Cluster", "MongoDB Cluster", "Virtual IP", "Nginx Reverse Proxy"
+          "Bind 9",
+          "Squid 3",
+          "Samba",
+          "Nginx",
+          "OpenLDAP",
+          "FreeRadius",
+          "Docker",
+          "VPN"
         ]
       },
       {
         "name": "網路維護 (熟悉)",
         "level": "advanced",
-        "skills": [
-          "Nmap", "Shorewall", "tshark", "iptables", "mtr", "dig"
-        ]
+        "skills": ["Nmap", "Shorewall", "tshark", "iptables", "mtr", "dig"]
       },
       {
         "name": "網站開發 (後端) (精通)",
         "level": "master",
         "skills": [
-          "Django", "Tornado", "RabbitMQ", "Node.js", "PHP", "RESTful", "HTTP Protocol"
+          "Django",
+          "Tornado",
+          "RabbitMQ",
+          "NodeJS",
+          "PHP",
+          "RESTful",
+          "HTTP Protocol"
         ]
       },
       {
         "name": "網站開發 (前端)",
         "level": "intermediate",
-        "skills": [
-          "AngularJS", "Angular", "React.js", "jQuery", "Bootstrap"
-        ]
+        "skills": ["Angular", "React", "jQuery", "Bootstrap"]
       },
       {
         "name": "資料庫",
         "level": "intermediate",
-        "skills": [
-          "MySQL", "MongoDB", "Redis"
-        ]
+        "skills": ["MySQL", "MongoDB", "Redis"]
       },
       {
         "name": "設定自動化工具",
         "level": "intermediate",
-        "skills": [
-          "Puppet", "CloudFormation", "Terraform"
-        ]
+        "skills": ["GUN Makefile", "Puppet", "CloudFormation", "Terraform"]
       },
       {
         "name": "CI / CD",
         "level": "intermediate",
-        "skills": [
-          "Jenkins", "Drone"
-        ]
+        "skills": ["Jenkins", "Drone"]
       }
     ],
 
@@ -84,7 +79,7 @@
         "years": "3"
       },
       {
-        "name": "Node.js",
+        "name": "NodeJS",
         "summary": "Optional summary of your experience with the skill.",
         "level": "advanced",
         "years": "4+"

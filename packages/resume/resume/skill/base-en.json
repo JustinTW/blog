@@ -1,62 +1,57 @@
 {
   "skills": {
-
     "sets": [
       {
         "name": "IT Service (Proficient)",
         "level": "advanced",
         "skills": [
-          "Bind 9", "Squid 3", "Samba", "Nginx", "OpenLDAP", "FreeRadius", "Docker", "VPN"
-        ]
-      },
-      {
-        "name": "HA and Load Balance (Basic)",
-        "level": "intermediate",
-        "skills": [
-          "DRDB", "Percona DB Cluster", "MongoDB Cluster", "Virtual IP", "Nginx Reverse Proxy"
+          "Bind 9",
+          "Squid 3",
+          "Samba",
+          "Nginx",
+          "OpenLDAP",
+          "FreeRadius",
+          "Docker",
+          "VPN"
         ]
       },
       {
         "name": "Network (Proficient)",
         "level": "advanced",
-        "skills": [
-          "Nmap", "Shorewall", "tshark", "iptables", "mtr", "dig"
-        ]
+        "skills": ["Nmap", "Shorewall", "tshark", "iptables", "mtr", "dig"]
       },
       {
         "name": "Web (Back-end) (Intermediate)",
         "level": "master",
         "skills": [
-          "Django", "Tornado", "RabbitMQ", "Node.js", "PHP", "RESTful", "HTTP Protocol"
+          "Django",
+          "Tornado",
+          "RabbitMQ",
+          "NodeJS",
+          "PHP",
+          "RESTful",
+          "HTTP Protocol"
         ]
       },
       {
         "name": "Web (Front-end) (Basic)",
         "level": "intermediate",
-        "skills": [
-          "AngularJS", "Angular", "React", "jQuery", "Bootstrap"
-        ]
+        "skills": ["Angular", "React", "jQuery", "Bootstrap"]
       },
       {
         "name": "Database (Basic)",
         "level": "intermediate",
-        "skills": [
-          "MySQL", "MongoDB", "Redis"
-        ]
+        "skills": ["MySQL", "MongoDB", "Redis"]
       },
       {
         "name": "Configuration and IaaC (Basic)",
         "level": "intermediate",
-        "skills": [
-          "Puppet", "CloudFormation", "Terraform"
-        ]
+        "skills": ["GUN Makefile", "Puppet", "CloudFormation", "Terraform"]
       },
       {
         "name": "CI / CD (Proficient)",
         "level": "advanced",
-        "skills": [
-          "Jenkins", "Drone"
-        ]
+        "skills": ["Jenkins", "Drone"]
       }
     ],
 
@@ -84,7 +79,7 @@
         "years": "3"
       },
       {
-        "name": "Node.js",
+        "name": "NodeJS",
         "summary": "Optional summary of your experience with the skill.",
         "level": "advanced",
         "years": "4+"

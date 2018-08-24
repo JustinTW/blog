@@ -1,0 +1,86 @@
+{
+  "employment": {
+    "summary": "6 年全職網站軟體開發、機房建置維護與網路建置維護經驗。3 年約聘網路建置管理經驗。",
+
+    "history": [
+      {
+        "employer": "MOXA Inc.",
+        "url": "http://www.moxa.com.tw/",
+        "position": "Seinor Engineer, IIoT Solution Dept.",
+        "summary": "Design and implement CI/CD flow for IIoT product and maintain web backend project.",
+        "start": "2018-02",
+        "end": "2018-06",
+        "keywords": [],
+        "highlights": [
+          "**Built various service for develop team**: `DNS`, `OpenVPN`, `CI Build Server`, `Gitlab`",
+          "**Design and implement continuous integration and continuous delivery for 75+ software component**",
+          "**Improve web backend architect for increase support more connection up to 500%**"
+        ]
+      },
+      {
+        "employer": "Openfind Information Technology , Inc.",
+        "url": "http://www.openfind.com.tw/",
+        "position": "Principal Engineer, CCP Dept.",
+        "summary": "A software developer of enterprise file sync and sharing production.",
+        "start": "2017-09",
+        "end": "2018-01",
+        "keywords": [],
+        "highlights": [
+          "**Design and implement of single sign-on feature**",
+          "**Design and implement of file access api for third-party partner**",
+          "**Design and implement of multi-server management feature**"
+        ]
+      },
+      {
+        "employer": "Hope Bay Technologies, Inc.",
+        "url": "http://www.hopebaytech.com/",
+        "position": "Software Engineer, EFSS Dept.",
+        "summary": "Hope Bay Technologies, Inc. is a startup company since June 2013 owned by [Dr. Ben Jai](https://www.facebook.com/ben.jai), I involve with building, maintaining network, building various IT service for company, and join many commercial products development.",
+        "start": "2013-06",
+        "end": "2017-09",
+        "keywords": [],
+        "highlights": [
+          "#### Information Systems and Technology",
+          "**Built and maintenance of network and service**: `OpenLDAP`, `DNS`, `OpenVPN`, `NAS`, `Gitlab`, `DB Cluster`, `FreeRaidus`",
+          "**Built and maintenance of package cache**: `pypi`, `docker`, `npm`, `dpkg`",
+          "**Built and maintenance of IT Service**: `DNS`, `LDAP`, `GitLab`, `DB Cluster`, `FreeRadius`",
+          "#### Web developer",
+          "**Design and implement of Phone Recording System**",
+          "**Design and implement of IP-PBX Recording System**",
+          "**Design and implement of Tera Phone Web File Manager**",
+          "**Design and implement of EFSS Product Web Development**"
+        ]
+      },
+
+      {
+        "employer": "Delta Electronics",
+        "url": "http://www.deltaww.com/",
+        "position": "Seinor Engineer, CTBU",
+        "summary": "I am a web application developer for data center physical machine management product.",
+        "start": "2012-06",
+        "end": "2013-06",
+        "keywords": [],
+        "highlights": [
+          "**Data Center Machine Manager Development** - Tools: `Django`, `Twitter Bootstrap`, `jQuery`",
+          "**File Storage Product Development** - Tools: `PHP`, `Ext.js`"
+        ]
+      },
+
+      {
+        "employer": "NTU and NTUST",
+        "url": "http://www.ntu.com/",
+        "position": "Contracted Software Engineer, Office of Dept. of EE",
+        "summary": "Website maintenance and various feature development.",
+        "start": "2008-09",
+        "end": "2012-06",
+        "keywords": [],
+        "highlights": [
+          "Slide Upload System for Graduate Admission Interview - 2008 - [Link](http://interview.et.ntust.edu.tw/Interview/login.htm)",
+          "New Official Website for Dept. of EE - 2010",
+          "Advisor Match Website for Graduate Student - 2011",
+          "Legacy System Virtualization - 2011"
+        ]
+      }
+    ]
+  }
+}

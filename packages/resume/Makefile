@@ -33,14 +33,14 @@ merge-resume:
 	jq -s add \
 	resume/about/base.json \
 	resume/brief/base.json \
-	resume/employment/base.json \
+	resume/employment/v2/base.json \
 	resume/skill/base.json \
 	> dist/src/fresh/base.json
 
 	jq -s add \
 	resume/about/base-en.json \
 	resume/brief/base-en.json \
-	resume/employment/base-en.json \
+	resume/employment/v2/base-en.json \
 	resume/skill/base-en.json \
 	> dist/src/fresh/base-en.json
 
@@ -51,14 +51,14 @@ merge-resume:
 	jq -s add \
 	resume/about/base.json \
 	resume/brief/customize/devops.json \
-	resume/employment/base.json \
+	resume/employment/v2/base.json \
 	resume/skill/base.json \
 	> dist/src/fresh/devops.json
 
 	jq -s add \
 	resume/about/base-en.json \
 	resume/brief/customize/devops-en.json \
-	resume/employment/base-en.json \
+	resume/employment/v2/base-en.json \
 	resume/skill/base-en.json \
 	> dist/src/fresh/devops-en.json
 
