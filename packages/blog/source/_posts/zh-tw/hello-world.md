@@ -53,7 +53,7 @@ categories: 技術分享
 #### 安裝 npm 相關模組
 
 ```bash
-yarn global add hexo-cli@1.1.0
+npm i -g hexo-cli@1.1.0
 ```
 
 #### 新增文章
