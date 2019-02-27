@@ -2,23 +2,14 @@
   "skills": {
     "sets": [
       {
-        "name": "網路服務 (熟悉)",
+        "name": "網站建置與運維 (熟悉)",
         "level": "advanced",
         "skills": [
-          "Bind 9",
-          "Squid 3",
-          "Samba",
-          "Nginx",
-          "OpenLDAP",
-          "FreeRadius",
           "Docker",
-          "VPN"
+          "K8S",
+          "AWS",
+          "NGINX"
         ]
-      },
-      {
-        "name": "網路維護 (熟悉)",
-        "level": "advanced",
-        "skills": ["Nmap", "Shorewall", "tshark", "iptables", "mtr", "dig"]
       },
       {
         "name": "網站開發 (後端) (精通)",
@@ -36,7 +27,7 @@
       {
         "name": "網站開發 (前端)",
         "level": "intermediate",
-        "skills": ["Angular", "React", "jQuery", "Bootstrap"]
+        "skills": ["Vue.JS","Angular.JS", "React", "jQuery", "Bootstrap"]
       },
       {
         "name": "資料庫",
@@ -51,7 +42,7 @@
       {
         "name": "CI / CD",
         "level": "intermediate",
-        "skills": ["Jenkins", "Drone"]
+        "skills": ["Jenkins", "Drone", "Circle CI"]
       }
     ],
 

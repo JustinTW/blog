@@ -1,35 +1,34 @@
 {
   "employment": {
-    "summary": "6 年全職網站全端開發、機房建置維護與網路建置維護經驗。",
+    "summary": "超過 6 年全職網站全端開發、機房建置維護與網路建置維護經驗。",
 
     "history": [
+      {
+        "employer": "Mars Blockchain",
+        "url": "http://www.marsblockchain.com/",
+        "position": "研發部 - 網站工程師",
+        "summary": "多項網站產品設計與開發。",
+        "start": "2018-11",
+        "keywords": [],
+        "highlights": [
+          "**開發區塊鏈錢包介面** 使用: Vue.js",
+          "**區塊鏈行情前端開發**: https://2627.com/ 使用: Nuxt.js (Vue.js)",
+          "**代幣兌換網站前後端開發**: https://1.sg/ 使用: Nuxt.js (Vue.js), Adonis.js (Node.js)"
+        ]
+      },
       {
         "employer": "MOXA 四零四科技",
         "url": "http://www.moxa.com.tw/",
         "position": "工業物聯網研發處 - 資深工程師",
         "summary": "產品自動化(CI/CD)設計與實做，IIoT 網站後端程式開發與維護。",
-        "start": "2018-02",
-        "end": "2018-06",
+        "start": "2017-10",
+        "end": "2018-11",
         "keywords": [],
         "highlights": [
           "**建置多種開發團隊基礎服務**: `DNS`, `OpenVPN`, `CI Build Server`, `Gitlab`",
           "**規劃與實做 75 個軟體元件自動化交付與自動化佈署**",
-          "**優化與提昇後端程式最大連線數 500%**"
-        ]
-      },
-      {
-        "employer": "Openfind 網擎資訊",
-        "url": "http://www.openfind.com.tw/",
-        "position": "產品研發部 - 主任工程師",
-        "summary": "商用雲端硬碟(File sync and sharing)產品功能開發與維護",
-        "start": "2017-09",
-        "end": "2018-01",
-        "keywords": [],
-        "highlights": [
-          "**實做跨產品單一登入功能**",
-          "**設計與實做檔案存取 API**",
-          "**設計與實多伺服器同步與管理功能**",
-          "**參與公司內部黑客松，開發網站貼圖系統**"
+          "**優化與提昇後端程式最大連線數 500%**",
+          "**技術棧:** `Angular.JS`, `Flask`, `Express.JS`"
         ]
       },
       {
@@ -41,17 +40,13 @@
         "end": "2017-09",
         "keywords": [],
         "highlights": [
-          "#### 網路建置與維護",
-          "**建置多種內部網路服務**: `OpenLDAP`, `DNS`, `OpenVPN`, `NAS`, `Gitlab`, `DB Cluster`, `FreeRaidus`",
-          "**建置多種套件快取服務**: `pypi`, `docker`, `npm`, `dpkg`",
-          "#### 網站軟體開發",
           "**蒐證雲產品開發與維護**",
           "**企業電話錄音系統開發**",
           "**Tera 手機檔案管理 Web 程式開發**",
-          "**商用私有雲端硬碟 Web 程式開發**"
+          "**商用私有雲端硬碟 Web 程式開發**",
+          "**離職原因:** 公司縮編"
         ]
       },
-
       {
         "employer": "台達電子股份有限公司",
         "url": "http://www.deltaww.com/",
@@ -62,23 +57,8 @@
         "keywords": [],
         "highlights": [
           "**資料中心伺服器管理 Web 程式開發** - 使用 Bootstrap 與 jQuery 開發伺服器管理系統頁面",
-          "**大型檔案儲存管理系統開發** - 使用 Ext.js 與 PHP 開發儲存系統管理界面"
-        ]
-      },
-
-      {
-        "employer": "國立臺灣大學、國立臺灣科技大學",
-        "url": "http://www.ntu.com/",
-        "position": "電子工程學研究所辦公室 - 約聘軟體研發工程師",
-        "summary": "維護系所網站，開發多種系所辦公室網站功能。",
-        "start": "2008-09",
-        "end": "2012-06",
-        "keywords": [],
-        "highlights": [
-          "開發面試投影片上傳系統 - 2008 - [連結](http://interview.et.ntust.edu.tw/Interview/login.htm)",
-          "開發新版系所網站 - 2010",
-          "開發指導教授媒合系統 - 2011",
-          "虛擬化遷移與備份機制設計 - 2011"
+          "**大型檔案儲存管理系統開發** - 使用 Ext.js 與 PHP 開發儲存系統管理界面",
+          "**離職原因:** 跟隨內部團隊創業，前往 和沛科技 任職"
         ]
       }
     ]

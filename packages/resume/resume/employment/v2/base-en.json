@@ -4,6 +4,19 @@
 
     "history": [
       {
+        "employer": "Mars Blockchain",
+        "url": "http://www.marsblockchain.com/",
+        "position": "Frontend Developer",
+        "summary": "Design and implement various website project.",
+        "start": "2018-11",
+        "keywords": [],
+        "highlights": [
+          "**Design and implement blockchain wallet** 使用: Vue.js",
+          "**Design and implement market ui**: https://2627.com/ 使用: Nuxt.js (Vue.js)",
+          "**Design and implement 1SG Offical Site**: https://1.sg/ 使用: Nuxt.js (Vue.js), Adonis.js (Node.js)"
+        ]
+      },
+      {
         "employer": "MOXA Inc.",
         "url": "http://www.moxa.com.tw/",
         "position": "Seinor Engineer, IIoT Solution Dept.",
@@ -40,18 +53,12 @@
         "end": "2017-09",
         "keywords": [],
         "highlights": [
-          "#### Information Systems and Technology",
-          "**Built and maintenance of network and service**: `OpenLDAP`, `DNS`, `OpenVPN`, `NAS`, `Gitlab`, `DB Cluster`, `FreeRaidus`",
-          "**Built and maintenance of package cache**: `pypi`, `docker`, `npm`, `dpkg`",
-          "**Built and maintenance of IT Service**: `DNS`, `LDAP`, `GitLab`, `DB Cluster`, `FreeRadius`",
-          "#### Web developer",
           "**Design and implement of Phone Recording System**",
           "**Design and implement of IP-PBX Recording System**",
           "**Design and implement of Tera Phone Web File Manager**",
           "**Design and implement of EFSS Product Web Development**"
         ]
       },
-
       {
         "employer": "Delta Electronics",
         "url": "http://www.deltaww.com/",
@@ -63,22 +70,6 @@
         "highlights": [
           "**Data Center Machine Manager Development** - Tools: `Django`, `Twitter Bootstrap`, `jQuery`",
           "**File Storage Product Development** - Tools: `PHP`, `Ext.js`"
-        ]
-      },
-
-      {
-        "employer": "NTU and NTUST",
-        "url": "http://www.ntu.com/",
-        "position": "Contracted Software Engineer, Office of Dept. of EE",
-        "summary": "Website maintenance and various feature development.",
-        "start": "2008-09",
-        "end": "2012-06",
-        "keywords": [],
-        "highlights": [
-          "Slide Upload System for Graduate Admission Interview - 2008 - [Link](http://interview.et.ntust.edu.tw/Interview/login.htm)",
-          "New Official Website for Dept. of EE - 2010",
-          "Advisor Match Website for Graduate Student - 2011",
-          "Legacy System Virtualization - 2011"
         ]
       }
     ]

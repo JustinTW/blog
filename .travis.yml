@@ -7,7 +7,7 @@ cache:
     - node_modules
 before_install:
   - sudo apt-get install -y jq nasm
-  - yarn global add $(grep -vE "^\s*#" requirements/yarn  | tr "\\n" " ")
+  - npm i -g add $(grep -vE "^\s*#" requirements/npm  | tr "\\n" " ")
 
 addons:
   apt:
