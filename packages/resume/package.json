@@ -1,7 +1,7 @@
 {
   "scripts": {
-		"test": "make test"
-	},
+    "test": "make test"
+  },
   "dependencies": {
     "fresh-theme-compact": "^0.1.0",
     "jsonresume-theme-classy": "^1.0.9",

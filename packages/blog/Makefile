@@ -20,4 +20,4 @@ version: ## output to version
 	@echo $(VERSION)
 
 install-deps:
-	yarn
+	npm i
